@@ -36,20 +36,20 @@ A **one-tap "Report Reply Flood"** button available only to high-reputation Prem
 | Appeal Velocity      | Auto-disable tool per niche if overturn rate > 10% until retuned |
 | Human Weight         | Non-linear weighting — long-term high-accuracy reporters get significantly more influence |
 
-## Evaluation Matrix
-
-| Category     | Metric                        | Target / Value              | Notes |
-|--------------|-------------------------------|-----------------------------|-------|
-| Accuracy     | Appeal Overturn Rate          | < 8%                        | Primary KPI |
-| Accuracy     | Grok Confidence Threshold     | ≥ 70% (ignore below)        | Prevent over-censorship |
-| Impact       | Thread Recovery Time          | ≥ 60% faster                | From flood to readable |
-| Impact       | Manual Report Reduction       | ≥ 75% for power users       | Time saved |
-| Efficiency   | Engineering Tokens            | ~45k tokens                 | One-time effort |
-| Efficiency   | Estimated Dev Cost            | $8,500 – $12,000            | Initial implementation |
-| Efficiency   | Ongoing Monthly Cost          | <$400                       | API + storage |
-| Safety       | False Positive Density        | < 0.3% of total replies     | In flood threads |
-| Adoption     | High-Rep Activation           | 65%+ of eligible            | First 30 days |
-| Deployment   | Full Rollout                  | Q3 2026                     | Pending metrics |
+**Updated Evaluation Matrix (with Potential Savings & Token Reduction)**
+Category	    Metric	Target  / Value	Notes
+Accuracy	    Appeal Overturn Rate	< 8%	Primary success KPI
+Accuracy	    Grok Confidence Threshold	≥ 70%	Prevents over-flagging; default ignore below
+Impact	      Thread Recovery Time Reduction	≥ 60% faster	From flood start to readable
+Impact	      Manual Report/Block Reduction	≥ 75%	Time saved for Premium+ power users
+Impact	      Potential Annual Savings	$180k – $320k	Reduced support tickets + engineering overhead
+Efficiency	  Engineering Tokens	~45k tokens	One-time implementation effort
+Efficiency	  Token Reduction Usage	~65% reduction	Grok-assisted detection lowers manual review spend
+Efficiency	  Estimated Dev Cost	$8,500 – $12,000	Frontend + backend + Grok integration
+Efficiency	  Ongoing Monthly Cost	<$400	Grok API calls + storage
+Safety	      False Positive Density	< 0.3%	Measured against total replies in high-velocity threads
+Safety	      Niche Disable Trigger	> 10% overturn	Auto-pause per niche/category
+Adoption	    High-Rep User Activation	65%+	Target of eligible users in first 30 days
 
 ## Deployment Schedule
 - **Phase 1**: Internal dogfood (Week 1–2)
