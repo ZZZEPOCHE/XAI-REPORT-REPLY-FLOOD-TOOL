@@ -1,6 +1,9 @@
 # XAI-Report-Reply-Flood-Tool - Feature Proposal
-
 **A gated, high-signal tool to combat coordinated low-substance reply spam on X**
+
+Version 1.0 – Static Release Date: 2026-04-10
+Author: ZZZ_EPOCHE
+Assistance by: Frontier LLMs
 
 ## Overview
 This document proposes a lightweight, reputation-gated **"Report Reply Flood"** tool designed to help Premium+ power users efficiently flag coordinated low-effort reply swarms (emoji spam, link dumps, repetitive insults, AI-generated slop) without giving moderation power to brigades.
@@ -50,12 +53,32 @@ See full license text in the proposal document.
 
 ---
 
-## Keywords
-`Report Reply Flood`, `coordinated spam`, `low-substance spam`, `Premium+ gated feature`, `Grok integration`, `human-AI symbiosis`, `reply swarm`, `thread readability`, `LLM-generated slop`, `anti-brigade safeguards`
+**Important Notice & Disclaimer**
 
----
+This tool is intended strictly for research and personal use only.
 
-**Status**: Ready for review and prototyping
+It is NOT a substitute for professional engineering, commercial, marketing, publicity, financial, medical, psychological, educational, forensic, legal or any other type of advice. Users must exercise their own judgment and seek appropriate professional guidance when necessary.
+
+No Warranty
+The tool is provided on an "AS IS" and "AS AVAILABLE" basis. The author makes no representations or warranties of any kind, express or implied, regarding the accuracy, reliability, completeness, or suitability of the tool or its outputs.
+
+The author expressly disclaims all liability for any direct, indirect, incidental, consequential, special, or other damages arising from the use or inability to use this tool, including but not limited to any harm, loss, or injury.
+
+EU/EEA Compliance This tool has not been assessed for compliance with the EU AI Act, GDPR, or any other applicable European regulations. Users in the European Union or European Economic Area assume all risks and responsibilities regarding regulatory compliance, data protection, and legal obligations. Use in these jurisdictions is entirely at the user's own risk.
+
+By using this tool, you acknowledge that you have read, understood, and accepted this disclaimer in full.
+
+**Legal Disclosure**
+
+This is an independent open-source project.
+No affiliation or compensation exists with any AI laboratory or commercial entity.
+
+This tool is released under the MIT License for research and personal use only.
+
+Static Release: This is a final frozen version. No further updates are planned.
+
+USA: Users are solely responsible for compliance with all applicable U.S. federal, state, and local laws.
+Rest of the World: Users bear full responsibility for compliance with all local laws and regulations.
 
 ---
 
